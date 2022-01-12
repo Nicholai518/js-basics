@@ -28,3 +28,15 @@ greetFullName('John', 'Smith');
 // If you do not provide a value for lastName, "undefined" will show in the console.
 // This is because "undefined" is the default value for primitive variables
 greetFullName('John');
+
+// This is an example of a function that calculates a value
+function square(number){
+    return number * number;
+}
+
+// Assign the square value to a variable
+let squaredNumber = square(2);
+console.log(squaredNumber);
+
+// You can also call the function inside a method
+console.log(square(3));
