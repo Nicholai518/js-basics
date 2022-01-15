@@ -25,3 +25,8 @@ let selection = 'name';
 person[selection] = "Dante"
 
 console.log(person.name);
+
+// name = person.name
+const { name } = person;
+
+console.log(name);

@@ -3,6 +3,7 @@ let priceBeforeTax = 2.40;
 
 beforeTax(priceBeforeTax);
 
+console.log("");
 // Display price after taz
 console.log('The price including tax: ' + (priceBeforeTax + calculateTax(priceBeforeTax)));
 
