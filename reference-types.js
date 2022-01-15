@@ -27,6 +27,7 @@ person[selection] = "Dante"
 console.log(person.name);
 
 // name = person.name
+// object destructuring
 const { name } = person;
 
 console.log(name);

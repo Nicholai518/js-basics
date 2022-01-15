@@ -4,6 +4,15 @@
 // Initialized with colors
 let selectedColors = ['red', 'blue'];
 
+// array destructuring
+const [ zero, one ] = selectedColors;
+
+// spread syntax, adding all the elements from one array, to another array
+const newArray = [
+    ...selectedColors,
+    ...selectedColors
+];
+
 // displays all elements of the array
 console.log(selectedColors);
 
