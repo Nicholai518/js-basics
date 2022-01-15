@@ -1,11 +1,7 @@
 // Variables
 let priceBeforeTax = 2.40;
 
-// Display price before tax
-console.log('The price before tax: ' + priceBeforeTax);
-
-// This does not provide a space
-console.log();
+beforeTax(priceBeforeTax);
 
 // Display price after taz
 console.log('The price including tax: ' + (priceBeforeTax + calculateTax(priceBeforeTax)));
@@ -15,4 +11,9 @@ console.log('The price including tax: ' + (priceBeforeTax + calculateTax(priceBe
 // Number can be a whole number or a decimal. Either works
 function calculateTax(number){
     return number * .08;
+}
+
+function beforeTax(number){
+// Display price before tax
+console.log('The price before tax: ' + priceBeforeTax);
 }
